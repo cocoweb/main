@@ -9,16 +9,16 @@ type Part struct {
 	Description string
 	NeedsSpare  bool
 }
-func (part *Part) Name() string {
+func (part Part) Name() string {
 	return part.name
 }
-func (part *Part) String() string {
+func (part Part) String() string {
 	return fmt.Sprintf("%s: %s", part.name, part.Description)
 }
 
 
 
-func (part *Part) SetName(name string) {
+func (part Part) SetName(name string) {
 	part.name = name
 }
 
