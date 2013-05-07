@@ -27,5 +27,11 @@ func main() {
 	ii.SetName("test")
 	fmt.Println(ii.GetName())
 	fmt.Println(dd.Student.String())
+	
+	oo := new(lxy.OldStudent)
+	oo.SetAge(50)
+	oo.SetName("Old man")
+	
+	fmt.Println(oo.GetName())
 
 }
