@@ -34,7 +34,7 @@ func TestFromStrSanity(t *testing.T) {
 			t.Errorf("Sanity check fail for UUID string %s\n\tid:  %v\n\tid2: %v", id.Hex(), id, id2)
 			t.FailNow()
 		}
-		fmt.Printf(id.Hex())
+		fmt.Println(id.Hex())
 	}
 }
 

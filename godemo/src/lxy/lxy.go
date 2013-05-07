@@ -16,6 +16,12 @@ type Teacher struct {
 	Course string
 }
 
+type OldStudent struct {   //匿名组合，完成继承
+    Student
+    year int
+
+}
+
 func (s *Student) SetName(name string) {
 	s.Name = name
 }

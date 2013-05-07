@@ -5,13 +5,17 @@ http://zh-golang.appsp0t.com
 http://www.oschina.net/news/38585/how-we-went-from-30-servers-to-2-go
 http://www.oschina.net/translate/go-at-google-language-design-in-the-service-of-software-engineering
 
-
+面向对象编程
+http://www.ituring.com.cn/article/details/1339
 
 Go语言资料收集
 http://blog.sina.com.cn/s/blog_9736af7d0100wc6z.html
 
 社区
 http://studygolang.com/
+
+golang中国
+http://www.golang.tc
 
 go语言Eclipse环境安装
 http://www.cnblogs.com/yjf512/archive/2012/06/19/2555248.html
