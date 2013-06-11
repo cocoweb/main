@@ -20,6 +20,11 @@ http://www.golang.tc
 go语言Eclipse环境安装
 http://www.cnblogs.com/yjf512/archive/2012/06/19/2555248.html
 
+框架
+https://github.com/golangers
+
+开源文档 the way to go
+https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md
 
 有趣的课题：
 1、接口（自动、隐含）
