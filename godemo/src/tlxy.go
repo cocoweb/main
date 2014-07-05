@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "./lxy"
+import "lxy"
 
 func main() {
 	ss := new(lxy.Student)
