@@ -1,14 +1,13 @@
 package main
 
 import "fmt"
-import "lxy"
-
+import "./lxy"
 
 func main() {
 	ss := new(lxy.Student)
 	ss.SetName("lxy")
 	ss.SetAge(20)
-	dd := new(director)
+	dd := new(lxy.Director)
 	dd.Name = "director"
 	dd.Student = *ss
 	var ii lxy.IPeople

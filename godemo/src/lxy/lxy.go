@@ -1,7 +1,9 @@
-// lxy project lxy.go  
 package lxy
 
+// lxy project lxy.go
+
 import "strconv"
+import "fmt"
 
 type IPeople interface {
 	SetName(string)
@@ -16,10 +18,9 @@ type Teacher struct {
 	Course string
 }
 
-type OldStudent struct {   //匿名组合，完成继承
-    Student
-    year int
-
+type OldStudent struct { //匿名组合，完成继承
+	Student
+	year int
 }
 
 func (s *Student) SetName(name string) {
@@ -50,16 +51,15 @@ func (t *Teacher) GetCourse() string {
 	return t.Course
 }
 
-
-type director struct {
-	lxy.Student
+type Director struct {
+	 Student
 	Name string
 }
 
-func (di *director) GetName() string {
+func (di *Director) GetName() string {
 	fmt.Println("get director name")
 	return di.Name
 }
-func (di *director) SetName(name string) {
+func (di *Director) SetName(name string) {
 	di.Name = name
 }
