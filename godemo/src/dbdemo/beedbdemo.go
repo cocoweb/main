@@ -1,4 +1,4 @@
-package main
+package dbdemo
 
 import (
 	"database/sql"

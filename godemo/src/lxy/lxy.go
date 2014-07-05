@@ -1,5 +1,5 @@
 // lxy project lxy.go  
-package lxy
+package main
 
 import "strconv"
 

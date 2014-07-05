@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "lxy"
+//import "lxy"
 
 type director struct {
 	lxy.Student
@@ -27,11 +27,11 @@ func main() {
 	ii.SetName("test")
 	fmt.Println(ii.GetName())
 	fmt.Println(dd.Student.String())
-	
+
 	oo := new(lxy.OldStudent)
 	oo.SetAge(50)
 	oo.SetName("Old man")
-	
+
 	fmt.Println(oo.GetName())
 
 }

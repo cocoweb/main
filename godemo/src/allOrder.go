@@ -8,7 +8,7 @@ import (
 //使用递归方法
 //
 
-var aXXX = []int{2, 4, 5, 8,9,7}
+var aXXX = []int{2, 4, 5, 8,9,7,10}
 
 func sortME(sourcArr []int, ipos int, outArr *[][]int) {
 	//fmt.Println(sourcArr)
