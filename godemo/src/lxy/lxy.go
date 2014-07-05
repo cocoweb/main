@@ -1,5 +1,5 @@
 // lxy project lxy.go  
-package main
+package lxy
 
 import "strconv"
 
@@ -48,4 +48,18 @@ func (t *Teacher) SetCourse(course string) {
 }
 func (t *Teacher) GetCourse() string {
 	return t.Course
+}
+
+
+type director struct {
+	lxy.Student
+	Name string
+}
+
+func (di *director) GetName() string {
+	fmt.Println("get director name")
+	return di.Name
+}
+func (di *director) SetName(name string) {
+	di.Name = name
 }

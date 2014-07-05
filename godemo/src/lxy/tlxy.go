@@ -1,20 +1,9 @@
 package main
 
 import "fmt"
-//import "lxy"
+import "lxy"
 
-type director struct {
-	lxy.Student
-	Name string
-}
 
-func (di *director) GetName() string {
-	fmt.Println("get director name")
-	return di.Name
-}
-func (di *director) SetName(name string) {
-	di.Name = name
-}
 func main() {
 	ss := new(lxy.Student)
 	ss.SetName("lxy")
