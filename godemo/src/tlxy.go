@@ -1,22 +1,22 @@
 package main
 
 import "fmt"
-import "lxy"
+import . "lxy"
 
 func main() {
-	ss := new(lxy.Student)
+	ss := new(Student)
 	ss.SetName("lxy")
 	ss.SetAge(20)
-	dd := new(lxy.Director)
+	dd := new(Director)
 	dd.Name = "director"
 	dd.Student = *ss
-	var ii lxy.IPeople
+	var ii IPeople
 	ii = dd
 	ii.SetName("test")
 	fmt.Println(ii.GetName())
 	fmt.Println(dd.Student.String())
 
-	oo := new(lxy.OldStudent)
+	oo := new(OldStudent)
 	oo.SetAge(50)
 	oo.SetName("Old man")
 
